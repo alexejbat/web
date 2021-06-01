@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: Lato;
+}
+
+.container {
+    width: 1600px;
+    margin: auto;
+}
+
+
+.top__menu {
+    height: 75px;
+    background-color: #222222;
+}
+
+
+.search {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+
+.top__brand {
+    flex-grow: 1;
+    background-image: url(img/top_write.png);
+    background-repeat: no-repeat;
+    background-position: 879px;
+    height: 764px;
+    background-color: #F1E4E6;
+}
+
+.what-we-do {
+    height: 2121px;
+}
+
+.main__catalog {
+    background-image: #E5E5E5;
+}
+
+.main__catalog-for {
+    padding-top: 65px;
+    padding-bottom: 30px;
+    padding-left: 230px;
+    padding-right: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__catalog-accesories {
+    display: flex;
+    justify-content: center;
+    padding-left: 230px;
+    padding-right: 230px;
+}
+
+.head-catalog {
+    padding-top: 96px;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.head-text {
+    padding-top: 6px;
+    padding-bottom: 18px;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    justify-content: center;
+    color: #9F9F9F;
+}
+
+.card__box {
+    padding-right: 230px;
+    padding-left: 230px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.card__header {
+    padding-top: 25px;
+    padding-left: 18px;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.card__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding-top: 13px;
+    padding-left: 16px;
+    padding-right: 28px;
+}
+
+.prize {
+    padding-top: 18px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    padding-left: 18px;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 360px;
+    height: 581px;
+    background: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.card__button {
+    border-radius: 1px;
+    border: 1px solid #F26376;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    padding: 15px 50px;
+    margin-top: 48px;
+    display: inline-block;
+    background: #FFFFFF;
+}
+
+.delivery {
+    background: #222224;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 230px;
+    padding-left: 230px;
+    height: 341px;
+}
+
+.footer__header {
+    color: #FBFBFB;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 28px;
+    font-size: 19.96px;
+    line-height: 24px;
+}
+
+.footer__text {
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    font-style: normal;
+    text-align: center;
+    color: #FBFBFB;
+    padding-top: 16px;
+    padding-left: 45px;
+    padding-right: 45px;
+
+}
+
+.delivery__card {
+    padding-top: 103px;
+    padding-bottom: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer__subscribe {
+    height: 448px;
+    padding-right: 230px;
+    padding-left: 230px;
+    background-image: url(img/footer_bg.png);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__subscribe-text {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 32px;
+    color: #222224;
+}
+
+.footer__subscribe-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__subscribe-box h4 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+}
+
+
+.footer__form {
+    margin-top: 32px;
+    display: flex;
+}
+
+.input__form {
+    height: 47px;
+    width: 322px;
+    background: #E1E1E1;
+    border: 1px solid;
+    border-radius: 10px;
+    opacity: 0.4;
+    text-indent: 22px;
+}
+
+.email {
+    height: 49px;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 0 10px 10px 0;
+    opacity: 0.4;
+    background: #E05C6E;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.footer__end {
+    background-color: #222224;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 230px;
+    padding-left: 235px;
+}
+
+
+
+.footer__end-text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
