@@ -8,23 +8,48 @@ body {
 }
 
 .container {
-    width: 1600px;
-    margin: auto;
+    max-width: 1600px;
+    margin: 0 auto;
 }
+
+
 
 
 .top__menu {
     height: 75px;
     background-color: #222222;
+    display: flex;
 }
 
 
 .search {
     display: flex;
+    align-items: center;
+    width: 100%;
     list-style-type: none;
     justify-content: space-around;
 }
 
+.logo {
+    margin-left: 231px;
+}
+
+.lupe {
+    margin-left: 41px;
+    margin-right: auto;
+}
+
+.search__menu {
+    margin-right: 20px;
+}
+
+.seacrh__account {
+    margin-right: 20px;
+}
+
+.cart {
+    margin-right: 240px;
+}
 
 .top__brand {
     flex-grow: 1;
@@ -40,23 +65,27 @@ body {
 }
 
 .main__catalog {
+    width: 1140px;
+    margin: 0 auto;
     background-image: #E5E5E5;
 }
 
 .main__catalog-for {
     padding-top: 65px;
     padding-bottom: 30px;
-    padding-left: 230px;
-    padding-right: 230px;
+
     display: flex;
     justify-content: space-between;
+}
+
+.women {
+    display: flex;
 }
 
 .main__catalog-accesories {
     display: flex;
     justify-content: center;
-    padding-left: 230px;
-    padding-right: 230px;
+
 }
 
 .head-catalog {
@@ -77,11 +106,15 @@ body {
     color: #9F9F9F;
 }
 
+.catalog__boxes {
+    width: 1140px;
+    margin: auto;
+}
+
 .card__box {
-    padding-right: 230px;
-    padding-left: 230px;
+
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 30px;
 }
 
@@ -214,26 +247,34 @@ body {
     display: flex;
 }
 
+
+
 .input__form {
-    height: 47px;
+    height: 49px;
     width: 322px;
-    background: #E1E1E1;
-    border: 1px solid;
-    border-radius: 10px;
+    background-color: #E1E1E1;
+    color: #222224;
+    border: none;
+    border-radius: 20px 0 0 20px;
     opacity: 0.4;
     text-indent: 22px;
+    font-size: 14px;
+    line-height: 17px;
+    opacity: 1;
 }
 
 .email {
     height: 49px;
     width: 100px;
-    border: 1px solid;
-    border-radius: 0 10px 10px 0;
+    border: none;
+    border-radius: 0 20px 20px 0;
     opacity: 0.4;
-    background: #E05C6E;
     text-align: center;
+    font-size: 14px;
+    line-height: 17px;
     color: #FFFFFF;
-
+    background-color: #F16D7F;
+    opacity: 1;
 }
 
 .footer__end {
@@ -252,4 +293,40 @@ body {
     font-size: 16px;
     line-height: 19px;
     color: #FBFBFB;
+}
+
+.insta {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-image: url(img/4.png);
+}
+
+.insta:hover {
+    background-image: url(img/hover\ insta.png);
+    background-position: 0 -32px;
+
+}
+
+@media (max-width: 1024px) {
+    .logo {
+        margin-left: 32px;
+    }
+
+    .cart {
+        margin-right: 32px;
+    }
+
+    .top__brand {
+        height: 368px;
+        background-position: 397px;
+        background-size: 44%;
+    }
+
+    .top__img img {
+        width: 368px;
+        height: 368px;
+    }
+
+
 }
