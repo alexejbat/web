@@ -61,7 +61,7 @@ body {
 }
 
 .what-we-do {
-    height: 2121px;
+    height: auto;
 }
 
 .main__catalog {
@@ -107,12 +107,12 @@ body {
 }
 
 .catalog__boxes {
-    width: 1140px;
+    max-width: 1140px;
     margin: auto;
 }
 
 .card__box {
-
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
@@ -165,6 +165,7 @@ body {
     color: #F26376;
     padding: 15px 50px;
     margin-top: 48px;
+    margin-bottom: 96px;
     display: inline-block;
     background: #FFFFFF;
 }
@@ -173,9 +174,8 @@ body {
     background: #222224;
     display: flex;
     justify-content: space-around;
-    padding-right: 230px;
-    padding-left: 230px;
-    height: 341px;
+
+
 }
 
 .footer__header {
@@ -210,13 +210,15 @@ body {
 }
 
 .footer__subscribe {
-    height: 448px;
+    /*   height: 448px;
     padding-right: 230px;
-    padding-left: 230px;
+    padding-left: 230px;*/
     background-image: url(img/footer_bg.png);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    padding-bottom: 126px;
+    padding-top: 86px;
 }
 
 .footer__subscribe-text {
@@ -329,7 +331,7 @@ body {
     }
 
     .main__catalog-for {
-        width: 768px;
+
         max-width: 768px;
 
     }
@@ -341,12 +343,55 @@ body {
     }
 
     .main__catalog-accesories img {
-        width: 734px;
+        max-width: 755px;
         height: 95%;
     }
 
+    .main__catalog-for {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
 
+    .head-catalog {
+        padding-top: 155px;
+    }
 
+    .head-text {
+
+        padding-bottom: 75px;
+    }
+
+    .catalog__boxes {
+        margin-left: 16px;
+        margin-right: 16px;
+
+    }
+
+    .delivery {
+        flex-direction: column;
+    }
+
+    .delivery__card {
+        padding-top: 49px;
+        padding-bottom: 49px;
+    }
+
+    .footer__subscribe {
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer__subscribe-box {
+        margin-top: 54px;
+        margin-bottom: 54px;
+
+    }
+
+    .footer__end {
+        padding-right: 32px;
+        padding-left: 32px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -363,9 +408,49 @@ body {
         display: none;
     }
 
+    .top__brand {
+        height: 263px;
+        background-position: 97px;
+        background-size: 44%;
+    }
+
+    .main__catalog-for {
+        /*    max-width: 343px;*/
+        flex-direction: column;
+    }
+
     .top__img img {
         display: none;
     }
 
+    .card {
+        margin-top: 17px;
+    }
 
+    .main__catalog-accesories img {
+        overflow: hidden;
+        max-width: 95%;
+
+    }
+
+    .footer__end {
+        flex-direction: column-reverse;
+        padding-top: 43px;
+        padding-bottom: 9px;
+    }
+
+    .footer__subscribe-text {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .input__form {
+
+        width: auto;
+    }
+
+    .email {
+        width: 92px;
+    }
 }
