@@ -12,11 +12,11 @@
         <div class="top__header">
             <div class="top__menu">
                 <ul class="search">
-                    <li><a href="#"> <img src="img/top_logo.svg" alt="logo"></a></li>
-                    <li><a href="#"><img src="img/top_lupa.svg" alt="loope"></a></li>
-                    <li><a href="#"><img src="img/top_account.svg" alt="account"></a></li>
-                    <li><a href="#"><img src="img/top_menu.svg" alt="menu"></a></li>
-                    <li><a href="#"> <img src="img/top_cart.svg" alt="cart"></a></li>
+                    <li class="logo"><a href="#"> <img src="img/top_logo.svg" alt="logo"></a></li>
+                    <li class="lupe"><a href="#"><img src="img/top_lupa.svg" alt="loope"></a></li>
+                    <li class="search__menu"><a href="#"><img src="img/top_menu.svg" alt="menu"></a></li>
+                    <li class="seacrh__account"><a href="#"><img src="img/top_account.svg" alt="account"></a></li>    
+                    <li class="cart"><a href="#"> <img src="img/top_cart.svg" alt="cart"></a></li>
                 </ul>
             </div>  
         </div>
@@ -28,9 +28,10 @@
     <div class="container what-we-do">
         <div class="main__catalog">
             <div class="main__catalog-for">
-                <img src="img/1-for women.png" alt="women">
-                <img src="img/2-for men.png" alt="men">
-                <img src="img/3-for kids.png" alt="kidz">
+                <div class="main__img"><img src="img/1-for women.png" alt="women"></div>
+                <div class="main__img"><img src="img/2-for men.png" alt="men"></div>
+                <div class="main__img"><img src="img/3-for kids.png" alt="kidz"></div>
+              
             </div>
             <div class="main__catalog-accesories">
                 <img src="img/4-ACCESORIES.png" alt="accesories">
@@ -126,12 +127,14 @@
             <div class="footer__end-img">
                 <p class="footer__end-text"> © 2021  Brand  All Rights Reserved.</p> 
             </div>
-           <div class="footer__end-img">
-                <img src="img/5.png" alt="facebook">
-                <img src="img/4.png" alt="instagram">
-                <img src="img/6.png" alt="picsart">
-                <img src="img/2.png" alt="twitter">
-           </div>    
+            <div class="footer__end-img">
+                <a href="#"><img src="img/5.png" alt="facebook"></a>
+                <!--<a href="#"><img class="insta" src="img/4.png" alt="instagram"></a>-->  <!--как сменить картинку - получается только с помощью background-img: url() ???--> 
+                <a href="#"><p class="insta"></p></a> 
+                <a href=""><img src="img/6.png" alt="picsart"></a>
+                <a href=""><img src="img/2.png" alt="twitter"></a> 
+                 
+            </div>    
         </div>
     </div>   
 </body>
