@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: Lato;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+
+
+.top__menu {
+    height: 75px;
+    background-color: #222222;
+    display: flex;
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-left: 231px;
+}
+
+.lupe {
+    margin-left: 41px;
+    margin-right: auto;
+}
+
+.search__menu {
+    margin-right: 20px;
+}
+
+.seacrh__account {
+    margin-right: 20px;
+}
+
+.cart {
+    margin-right: 240px;
+}
+
+.top__brand {
+    flex-grow: 1;
+    background-image: url(img/top_write.png);
+    background-repeat: no-repeat;
+    background-position: 879px;
+    height: 764px;
+    background-color: #F1E4E6;
+}
+
+.what-we-do {
+    height: auto;
+}
+
+.main__catalog {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-image: #E5E5E5;
+}
+
+.main__catalog-for {
+    padding-top: 65px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.women {
+    display: flex;
+}
+
+.main__catalog-accesories {
+    display: flex;
+    justify-content: center;
+
+}
+
+.head-catalog {
+    padding-top: 96px;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.head-text {
+    padding-top: 6px;
+    padding-bottom: 18px;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    justify-content: center;
+    color: #9F9F9F;
+}
+
+.catalog__boxes {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.card__box {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.card__header {
+    padding-top: 25px;
+    padding-left: 18px;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.card__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding-top: 13px;
+    padding-left: 16px;
+    padding-right: 28px;
+}
+
+.prize {
+    padding-top: 18px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    padding-left: 18px;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 360px;
+    height: 581px;
+    background: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.card__button {
+    border-radius: 1px;
+    border: 1px solid #F26376;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    padding: 15px 50px;
+    margin-top: 48px;
+    margin-bottom: 96px;
+    display: inline-block;
+    background: #FFFFFF;
+}
+
+.delivery {
+    background: #222224;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.footer__header {
+    color: #FBFBFB;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 28px;
+    font-size: 19.96px;
+    line-height: 24px;
+}
+
+.footer__text {
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    font-style: normal;
+    text-align: center;
+    color: #FBFBFB;
+    padding-top: 16px;
+    padding-left: 45px;
+    padding-right: 45px;
+
+}
+
+.delivery__card {
+    padding-top: 103px;
+    padding-bottom: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer__subscribe {
+    /*   height: 448px;
+    padding-right: 230px;
+    padding-left: 230px;*/
+    background-image: url(img/footer_bg.png);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 126px;
+    padding-top: 86px;
+}
+
+.footer__subscribe-text {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 32px;
+    color: #222224;
+}
+
+.footer__subscribe-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__subscribe-box h4 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+}
+
+
+.footer__form {
+    margin-top: 32px;
+    display: flex;
+}
+
+
+
+.input__form {
+    height: 49px;
+    width: 322px;
+    background-color: #E1E1E1;
+    color: #222224;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    opacity: 0.4;
+    text-indent: 22px;
+    font-size: 14px;
+    line-height: 17px;
+    opacity: 1;
+}
+
+.email {
+    height: 49px;
+    width: 100px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    opacity: 0.4;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background-color: #F16D7F;
+    opacity: 1;
+}
+
+.footer__end {
+    background-color: #222224;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 230px;
+    padding-left: 235px;
+}
+
+
+
+.footer__end-text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+
+.insta {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-image: url(img/4.png);
+}
+
+.insta:hover {
+    background-image: url(img/hover\ insta.png);
+    background-position: 0 -32px;
+
+}
+
+@media (max-width: 768px) {
+    .logo {
+        margin-left: 32px;
+    }
+
+    .cart {
+        margin-right: 32px;
+    }
+
+    .top__brand {
+        height: 368px;
+        background-position: 397px;
+        background-size: 44%;
+    }
+
+    .top__img img {
+        width: 50%;
+        height: 368px;
+    }
+
+    .main__catalog-for {
+
+        max-width: 768px;
+
+    }
+
+    .main__img img {
+        width: 95%;
+        height: 95%;
+        margin-left: 6px;
+    }
+
+    .main__catalog-accesories img {
+        max-width: 755px;
+        height: 95%;
+    }
+
+    .main__catalog-for {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .head-catalog {
+        padding-top: 155px;
+    }
+
+    .head-text {
+
+        padding-bottom: 75px;
+    }
+
+    .catalog__boxes {
+        margin-left: 16px;
+        margin-right: 16px;
+
+    }
+
+    .delivery {
+        flex-direction: column;
+    }
+
+    .delivery__card {
+        padding-top: 49px;
+        padding-bottom: 49px;
+    }
+
+    .footer__subscribe {
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer__subscribe-box {
+        margin-top: 54px;
+        margin-bottom: 54px;
+
+    }
+
+    .footer__end {
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+}
+
+@media (max-width: 375px) {
+    .logo {
+        margin-left: 16px;
+    }
+
+
+    .cart {
+        display: none;
+    }
+
+    .seacrh__account {
+        display: none;
+    }
+
+    .top__brand {
+        height: 263px;
+        background-position: 97px;
+        background-size: 44%;
+    }
+
+    .main__catalog-for {
+        /*    max-width: 343px;*/
+        flex-direction: column;
+    }
+
+    .top__img img {
+        display: none;
+    }
+
+    .card {
+        margin-top: 17px;
+    }
+
+    .main__catalog-accesories img {
+        overflow: hidden;
+        max-width: 95%;
+
+    }
+
+    .footer__end {
+        flex-direction: column-reverse;
+        padding-top: 43px;
+        padding-bottom: 9px;
+    }
+
+    .footer__subscribe-text {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .input__form {
+
+        width: auto;
+    }
+
+    .email {
+        width: 92px;
+    }
+}
