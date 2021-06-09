@@ -65,6 +65,7 @@ body {
 }
 
 .main__catalog {
+
     max-width: 1140px;
     margin: 0 auto;
     background-image: #E5E5E5;
@@ -76,7 +77,6 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
 
 .women {
     display: flex;
@@ -107,11 +107,15 @@ body {
 }
 
 .catalog__boxes {
+    width: 1140px;
+
     max-width: 1140px;
+
     margin: auto;
 }
 
 .card__box {
+
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
@@ -310,7 +314,10 @@ body {
 
 }
 
+@media (max-width: 1024px) {
+
 @media (max-width: 768px) {
+
     .logo {
         margin-left: 32px;
     }
@@ -326,6 +333,11 @@ body {
     }
 
     .top__img img {
+
+        width: 368px;
+        height: 368px;
+    }
+
         width: 50%;
         height: 368px;
     }
